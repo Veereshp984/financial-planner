@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Calculator</title>
+  <link rel="stylesheet" href="./invest2.css">
+</head>
+<body>
+    
+  <div class="container">
+    <h1>Investment Calculator</h1>
+    <label for="initialAmount">Initial Amount (₹):</label>
+    <input type="number" id="initialAmount" placeholder="Enter initial amount">
+    <label for="monthlyContribution">Monthly Contribution (₹):</label>
+    <input type="number" id="monthlyContribution" placeholder="Enter monthly contribution">
+    <label for="interestRate">Annual Interest Rate (%):</label>
+    <input type="number" id="interestRate" placeholder="Enter annual interest rate">
+    <label for="investmentPeriod">Investment Period (Years):</label>
+    <input type="number" id="investmentPeriod" placeholder="Enter investment period in years">
+    <button onclick="calculateInvestment()">Calculate</button>
+    <div id="result"></div>
+  </div>
+  <script src="./invest2.js"></script>
+</body>
+</html>

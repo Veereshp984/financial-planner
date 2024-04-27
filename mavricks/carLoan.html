@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Loan Calculator</title>
+  <link rel="stylesheet" href="./carLoan.css">
+</head>
+<body>
+    <div class="background-image"></div>
+  <div class="container">
+    <h1>Car Loan Calculator</h1>
+    <label for="carPrice">Car Price (₹):</label>
+    <input type="number" id="carPrice" placeholder="Enter car price">
+    <label for="downPayment">Down Payment (₹):</label>
+    <input type="number" id="downPayment" placeholder="Enter down payment">
+    <label for="loanTerm">Loan Term (Years):</label>
+    <input type="number" id="loanTerm" placeholder="Enter loan term in years">
+    <label for="interestRate">Annual Interest Rate (%):</label>
+    <input type="number" id="interestRate" placeholder="Enter annual interest rate">
+    <button onclick="calculateLoan()">Calculate</button>
+    <div id="result"></div>
+  </div>
+  <script src="./carloan.js"></script>
+</body>
+</html>
